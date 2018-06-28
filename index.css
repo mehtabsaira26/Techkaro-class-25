@@ -1,6 +1,9 @@
-button{
-    padding: 10px 40px;
-    background-color: purple;
-    color: white;
-    font-weight: bold;
+body{
+    background-color: #9e9e9e7d;
+    }
+H1{
+    font-family: 'Shrikhand', cursive;
+}
+H2,p{
+    font-family: 'Fjalla One', sans-serif;
 }
