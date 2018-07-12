@@ -1,43 +1,72 @@
 <!DOCTYPE html>
-<html>
-
+<html >
 <head>
-    <title>Level 6</title>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 </head>
-
 <body>
-    <h1>Welcome to Level 6 - Alphatets Hide and Seek !</h1>
 
-    <h2>Instructions</h2>
-    <p>Find all alphabet images inside the level-6 folder. Then add these images below. Each image must have a width of 150 pixels</p>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!--   <a class="navbar-brand" href="#">WebSiteName</a> -->
+        <span class="icon" > <i  class="fab fa-github"></i> </span>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#">Featrures</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Marketplace</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="input-group">
+          <input type="text" class="form-control inp" placeholder="Search Github" name="search">
+          <div class="input-group-btn">
+<!-- 
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button> -->
 
-    <img src="../a.jpg" alt="Alphabet A" height="200" width="200">
-    <img src="b.jpg" alt="Alphabet B" height="200" width="200">
-    <img src="../c.png" alt="Alphabet C" height="200" width="200">
-    <img src="../another-2/d.jpeg" alt="Alphabet D" height="200" width="200">
-    <img src="../../../e.jpg" alt="Alphabet E" height="200" width="200">
-    <img src="../another-2/hello-world/f.jpg" alt="Alphabet F" height="200" width="200">
-    <img src="../../../some-here/g.jpg" alt="Alphabet G" height="200" width="200">
-    <img src="../h.jpg" alt="Alphabet H" height="200" width="200">
-    <img src="../another-2/i.jpg" alt="Alphabet I" height="200" width="200">
-    <img src="../../j.jpg" alt="Alphabet J" height="200" width="200">
-    <img src="../../../some-here/in-2/k.png" alt="Alphabet K" height="200" width="200">
-    <img src="../../../some-here/l.png" alt="Alphabet L" height="200" width="200">
-    <img src="../../m.jpg" alt="Alphabet M" height="200" width="200">
-    <img src="n.jpeg" alt="Alphabet N" height="200" width="200">
-    <img src="../another-2/hello-world/o.png" alt="Alphabet O" height="200" width="200">
-    <img src="../another-2/p.jpg" alt="Alphabet P" height="200" width="200">
-    <img src="../../../q.png" alt="Alphabet Q" height="200" width="200">
-    <img src="../../../some-here/r.jpg" alt="Alphabet R" height="200" width="200">
-    <img src="../../../some-here/n-1/s.jpg" alt="Alphabet S" height="200" width="200">
-    <img src="../../../some-here/n-1/t.jpg" alt="Alphabet T" height="200" width="200">
-    <img src="../../../u.jpg" alt="Alphabet U" height="200" width="200">
-    <img src="../../../some-here/in-2/v.jpg" alt="Alphabet V" height="200" width="200">
-    <img src="../../../some-here/n-1/w.jpeg" alt="Alphabet W" height="200" width="200">
-    <img src="../../../some-here/in-2/x.jpg" alt="Alphabet X" height="200" width="200">
-    <img src="../another-2/hello-world/y.png" alt="Alphabet Y" height="200" width="200">
-    <img src="../../../some-here/in-2/z.jpg" alt="Alphabet Z" height="200" width="200">
+        </div>
+
+      </div>
+
+    </form>
+    <ul class="nav navbar-nav sign">
+      <li><a href="#">Sign in</a></li>
+      <li><a href="#">or</a></li>
+      <li><a href="#">Sign up</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Built for developers</h1>
+  <p>GitHub is a development platform inspired by the way you work. Form <a href="">open source</a> to <a href="">business,</a> you can host and review code, manage projects, and build software alongside millions of other developers.</p>
+</div>
+
+<form action="/action_page.php" class="login">
+  <div class="form-group">
+    <label for="email">Username</label>
+    <input type="text" class="form-control" id="email" placeholder="Pick a username">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Create a password">
+    <p>Use a least one letter, one numeral and seven characters.</p>
+    <button  type="button" class="btn btn-success" >Sing up for Github</button>
+    <p>By clicking "Sign up for Github",you agree yo our <a href="">tearms of service</a>and <a href="">privacy   statement.</a>We'll occasionally send you account related emails.</p>
+  </div>
+  
+</form>
 
 </body>
-
 </html>
